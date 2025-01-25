@@ -1,0 +1,10 @@
+# gs = gross salary 
+# allow = allowance
+# ded = deduction
+# ns = net salary
+# ns=gs+allo-ded
+gs=int(input("Enter Value Of gs: "))
+allo=10*gs/100
+ded=3*gs/100
+ns=gs+allo-ded
+print("Net Salary =",ns)
